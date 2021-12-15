@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn import metrics
 from catboost import CatBoostClassifier, Pool, cv
 import matplotlib.pyplot as plt
-from preprocessing import preprocess_data
+from preprocessing_rf import preprocess_data
 import math
 x_train, x_test, y_train, y_test = preprocess_data()
 
